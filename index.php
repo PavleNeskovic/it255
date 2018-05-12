@@ -18,7 +18,12 @@
 <div class="container">
   <div class="jumbotron">
     <h1 class="headline">What is Lorem Ipsum?</h1> 
-    <p class="subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> 
+    <button type="button" class="time-button" onclick="document.getElementById('time').innerHTML = Date()">
+      Display Date and Time</button>
+    <p id="time" class="subtitle"></p>
+    <p class="subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+
+    
   </div>
 
   <div class="content">
@@ -112,6 +117,10 @@
 <div class="footer">
   <p>Pavle Neskovic 1998</p>
 </div>
+
+<script>
+
+</script>
 
 </body>
 </html>
